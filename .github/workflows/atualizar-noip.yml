@@ -1,0 +1,1 @@
+name: Atualizar IP Bedrock no No-IP on: push: branches: - main schedule: - cron: '0 */6 * * *' # Executa sozinho a cada 6 horas para manter o IP atualizado jobs: update-noip: runs-on: ubuntu-latest steps: - name: Enviar IP atual para o No-IP run: | curl -s -u "${{ miguel }}:${{ FQ4-tXHve6CB?jn }}" \ "https://no-ip.com{{ mecsmpmc.serveftp.com }}"
